@@ -5,47 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shortly</title>
-    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="header-box">
-                <div class="header-left-box">
-                    <a  class="header-logo" href="#">
+                <div class="header-box__left">
+                    <a  class="header-box__logo" href="#">
                         <img src="./img/logo.svg" width="120" height="33" alt="Site logo">
                     </a>
 
                     <ul class="header-list">
-                        <li class="header-list-box">
-                            <a class="header-link" href="#">
+                        <li class="header-list__box">
+                            <a class="header-list__link" href="#">
                                 Features
                             </a>
                         </li>
-                        <li class="header-list-box">
-                            <a class="header-link" href="#">
+                        <li class="header-list__box">
+                            <a class="header-list__link" href="#">
                                 Pricing
                             </a>
                         </li>
-                        <li class="header-list-box">
-                            <a class="header-link" href="#">
+                        <li class="header-list__box">
+                            <a class="header-list__link" href="#">
                                 Resources
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="header-right-box">
-                    <span class="header-login">
-                        <a class="header-link" href="#">
+                <div class="header-box__right">
+                    <span class="header-box__login">
+                        <a class="header-box__link" href="#">
                             Login
                         </a>
                     </span>
 
-                    <a  class="header-button"  href="#">
+                    <a  class="site-btn"  href="#">
                         Sign Up
                     </a>
                 </div>
+
+                <button class="bureger">
+                </button>
+
             </div>
         </div>
     </header>
@@ -57,33 +60,33 @@
         <!-- start hero sectiom -->
          <section class="hero">
             <div class="container">
-                <div class="hero-all-box">
-                    <div class="hero-left-box">
-                        <h1 class="hero-title"> 
+                <div class="hero-box">
+                    <div class="hero-box__left">
+                        <h1 class="hero-box__title"> 
                             More than just shorter links
                         </h1>
-                        <p class="hero-text">
+                        <p class="hero-box__text">
                             Build your brand’s recognition and get detailed insights on how your links are performing.
                         </p>
     
-                        <a class="header-button hero-button" href="#">
+                        <a class="hero-box__btn" href="#">
                             Get Started
                         </a>
                     </div>
-                    <div class="hero-right">
+                    <div class="hero-box__right">
 
                     </div>
 
-                    <div class="hero-input-bottom">
-                        <form class="hero-form" action="https://echo.htmlacademy.ru/courses" autocomplete="off" method="post">
-                            <label>
-                                <input class="hero-input" type="url" name="user-link" placeholder="Shorten a link here..." minlength="15"  required>
-                                <span class="hero-input-invalid">
+                    <div class="hero-box__input-box">
+                        <form class="hero-box__form" action="https://echo.htmlacademy.ru/courses" autocomplete="off" method="post">
+                            <label class="hero-box__lable">
+                                <input class="hero-box__input" type="url" name="user-link" placeholder="Shorten a link here..." minlength="15"  required>
+                                <span class="hero-box__input-invalid">
                                     Please add a link
                                 </span>
                             </label>
 
-                            <button class="hero-input-button">
+                            <button class="hero-box__input-button">
                                 Shorten It!
                             </button>
 
@@ -96,7 +99,7 @@
         <!-- end hero section -->
 
         <!-- start advanced section -->
-        <section class="advanced-section">
+        <!-- <section class="advanced-section">
             <div class="container">
                 <div class="advanced-box">
                     <div class="advanced-top-text">
@@ -137,12 +140,12 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- end advanced section -->
 
 
         <!-- start boost section -->
-        <section class="boots-section">
+        <!-- <section class="boots-section">
             <div class="container">
                 <div class="boots-box">
                     <h2 class="boots-title">
@@ -154,11 +157,11 @@
                 </div>
             </div>
 
-        </section>
+        </section> -->
         <!-- end boost section -->
     </main>
 
-    <footer>
+    <!-- <footer>
         <div class="container">
             <div class="footer-box">
                 <a href="./index.html">
@@ -266,6 +269,8 @@
                </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
