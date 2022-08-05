@@ -1,0 +1,76 @@
+
+@import "hero";
+
+
+.boots-section{
+    padding: 57px ;
+    width: 100%;
+    background-image: url("../img/last-section.png");
+    background-size: cover;
+
+}
+.boots-box{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 540px;
+}
+.boots-box__title{
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: var(--text-font-size-40);
+    line-height: var(--text-line-height-48);
+    text-align: center; 
+    color: var(--text-colar-fff);
+}
+.boots-button{
+    width: 197px;
+    padding: 14px 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: var(--text-font-size-20);
+    line-height: var(--text-line-height-30);
+    color: var(--text-colar-fff);
+}
+
+.advanced-box-btn--active{
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (max-width: 650px) {
+    .boots-section{
+        padding: 0 0;
+        width: 100%;
+    }
+
+    .boots-box{
+        padding: 50px 35px;
+    }
+    .boots-box__title{
+        margin: 0;
+        margin-bottom: 32px;
+        font-size: 26px;
+        line-height: 48px;
+        text-align: center; 
+    }
+}
+@media screen and (max-width: 410px) {
+    .boots-section{
+        padding: 0 0;
+        width: 100%;
+    }
+
+    .boots-box{
+        padding: 50px 35px;
+    }
+    .boots-box__title{
+        margin: 0;
+        margin-bottom: 32px;
+        font-size: 22px;
+        line-height: 48px;
+        text-align: center; 
+    }
+}
